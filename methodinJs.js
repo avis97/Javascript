@@ -75,6 +75,7 @@ function callback(a,b,call){
 }
 console.log(callback(1,2,sum));
 
+// pass the arrow function in by parameter..
 const fun1=((a,b)=>{
     return a+b;   // this is also high model in js.
 })
