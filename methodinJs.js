@@ -64,4 +64,19 @@ const ansnm=nums.filter((num)=>{  // filter the element by condition in any arra
 })
 console.log(ansnm);
 
+//call back function--->>
+// when we pass a another function in method parameter this are called callBack function.
+function sum(sum){
+    return sum;
+}
+function callback(a,b,call){
+    let c=a+b;
+    return call(c);
+}
+console.log(callback(1,2,sum));
+
+const fun1=((a,b)=>{
+    return a+b;   // this is also high model in js.
+})
+console.log(fun1(5,6));
 // also have so many method in js ...
