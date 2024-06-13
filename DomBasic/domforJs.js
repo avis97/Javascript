@@ -37,12 +37,14 @@ newEl.innerText="Ok We can learn Javascript basic Dom..";
 text.after(newEl)  // we can also add the element with the old element...
 
 // now create a element and put it in the list
-
  let oldList=document.querySelector("li");  //find the old element by the id 
  let newElement=document.createElement("li"); // create new element
  newElement.innerHTML="Sangita Sarkar"  //set the new element word
  //oldList.append(newElement);      // put is the old list
- document.querySelector("ul").insertBefore(newElement,oldList).nextElement;
+ 
+document.querySelector("ul")
+.insertBefore(newElement,oldList)
+.nextElement;
 
 
 

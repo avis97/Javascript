@@ -9,7 +9,7 @@
     <h2 id="event" style="border: 1px solid black; background-color:
      green; text-align: center; color :white">
         Hello Events In Javascript.</h2>
-        <button>Click Me</button>
+        <button onmouseout="changeText()">Click Me</button>
         <script>
           // this is basic event in javascript..
           let ele=document.getElementById("event");
@@ -17,7 +17,10 @@
             ele.innerText="Javascript is a good language both browser and server with Node js"
           }
           let btn=document.querySelector("button");
-          btn.onclick=changeText
+          
+          // btn.addEventListener("click",(
+          //   setTimeout(changeText,3000)  // setTimeout also as a call back function in Javascript
+          // ))
         </script>
 </body>
 </html>

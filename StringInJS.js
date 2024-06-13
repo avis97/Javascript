@@ -15,9 +15,10 @@ console.log(s.startsWith("A"));  // this a also method in java Script...
 
 let t=s.concat(" Sarkar"); //String not concat with other String due to titeral its make a new String for concat like Java
 console.log(t);
-console.log(t.length())// return length og string.. 
+console.log(t.length) // return length og string.. 
 // the plus(+) operator also use for concatenation two string.
 
 // we can also print the String in bac-tick-->? ` `
 console.log(`my name is Avishek Sarkar my age is ${26} year old`);  //we can easyly write our String in the concat.
+
 

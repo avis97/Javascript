@@ -56,6 +56,6 @@ const lp=new Laptop("Dell",50000,14,15);
 lp.display();
 
 // this and super is reference keyword -->this refer in current class but super is refer lst parent class method
-// and constructor also..
+// and constructor also.
 
 

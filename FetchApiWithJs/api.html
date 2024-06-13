@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lets Start With fetch Api by javascript</h1>
+    <script>
+        let a=7;
+        let b=8;
+        let c=a+b;
+        const getData= async ()=>{
+            try{
+            let getDataByApi= await fetch("https://api.restful-api.dev/objects");
+            console.log(await getDataByApi.json());
+            }catch(error){
+                console.log(error);
+            }
+        }
+        getData();
+        console.log(c);
+    </script>
+</body>
+</html>
